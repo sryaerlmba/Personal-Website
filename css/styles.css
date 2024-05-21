@@ -1,0 +1,125 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+
+.container-color {
+    background-color: #6E7CFF;
+}
+
+#contact-button{
+    border: white;
+}
+
+section {
+    background-color: #6E7CFF;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px; /* Padding atas untuk menghindari overlap dengan navbar */
+}
+
+.content-text {
+    margin-top: 150px;
+}
+
+.btn-content-color {
+    background-color: white;
+    color: #6E7CFF;
+}
+
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Shape Styles */
+.section-blue::before, .section-blue::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.section-blue::before {
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    top: -150px;
+    right: -150px;
+}
+
+.section-blue::after {
+    width: 400px;
+    height: 400px;
+    background: rgba(236, 147, 195, 0.2);
+    bottom: -200px;
+    left: -200px;
+}
+
+/* Button Styles */
+.custom-button {
+    background-color: white;
+    color: #6E7CFF;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.custom-button:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+.custom-button:active {
+    background-color: white;
+    transform: scale(1);
+}
+
+span {
+    color: #EC93C3;
+}
+
+#work-experiences {
+    margin-top: 100px;
+    background-color: #6E7CFF;
+}
+
+.font-size-large {
+    font-size: 1.4rem; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+/* The commented out code block you provided is a CSS media query. It is targeting screens with a
+minimum width of 1280 pixels. */
+
+/* .img-grid{
+    height: 400px;
+} */
+
+footer{
+    background-color: #6E7CFF;
+}
+@media screen and (min-width: 1280px) {
+    .fs-lg{
+        font-size: 1.5rem;
+    }    
+}
+
+@media (max-width: 576px) {
+    #about-section h1,
+    #about-section p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 412px) {
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='none' stroke='%23fff' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+}
+
+
