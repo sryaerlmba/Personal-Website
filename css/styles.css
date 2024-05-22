@@ -122,4 +122,15 @@ footer{
     }
 }
 
+@media (max-width: 768px) {
+    .section-blue::before, .section-blue::after {
+        display: none;
+    }
+}
+
+/* Menghilangkan shape ketika di posisi scroll tertentu */
+body.scrolled .section-blue::after {
+    display: none;
+}
+
 
