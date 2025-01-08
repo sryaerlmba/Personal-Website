@@ -134,3 +134,9 @@ body.scrolled .section-blue::after {
 }
 
 
+.icon-size {
+    width: 4em;
+    height: 4em;
+    margin-bottom: 0.5em;
+}
+
